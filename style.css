@@ -11,21 +11,24 @@ body {
   background-size: cover;
   background-position: center;
   height: 90vh;
+  text-shadow: 1px 1px 4px #000;
 }
 
-/* Cards */
+/* Uniform Card Image */
+.fixed-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Card Titles */
 .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
   color: #0f0e46;
-  font-weight: 700;
-  font-size: 1.5rem;
 }
 
+/* Card Text */
 .card-text {
   color: #6c6b70;
   font-size: 0.95rem;
-}
-
-/* Footer */
-footer {
-  font-size: 0.9rem;
 }
